@@ -12,4 +12,4 @@ Run Fig2.py
 Run Fig4_calculation.py and then run Fig4_plot.py. To change oxygen concentration, change values of O2satratio in Fig4_calculation.py and O2p in Fig4_plot.py. O2p must be 100 x O2satratio. To change resolution, change values in tune CNstep and Ninstep in Fig4_calculation.py. 
 
 4. Plotting FIG S1
-Run FigS1.py. To change oxygen concentration, change a value of O2satratio.
+Run FigS1.py. To change oxygen concentration, change a value of O2satratio. Resolution can be changed in the same way as FIG 4.
