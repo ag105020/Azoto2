@@ -597,7 +597,7 @@ def az2(buhler_data):
 
     #new plot
     #OOOOOOOOO
-    xname='C/N (mol sucrose/mol NH$_4^+$)'
+    xname='C/N (mol sucrose/mol N ammonium)'
     ##########################
     #OOOOOOOOOOOOOOOOOOOOOOOOO
     PRd[PRd<0]=nan
@@ -613,7 +613,13 @@ def az2(buhler_data):
 
     ###########################################    
 
-
+    figure('FIG 2C')
+    plot(CN,PRd, linewidth=2.5, color=plotcolor)
+    plot(buhler_data.cnpr, buhler_data.prd,'o', color=plotcolor)
+    xlabel(xname)
+    ylabel('Protein (mg/ml)')
+    #title('Protein concentration in the vessel')
+    xlim(xmax=Xlimmax)
 
     ###################    
     #OOOOOOOOOOOOOOOOOO
@@ -631,6 +637,7 @@ def az2(buhler_data):
     ax2.set_ylim(0,35/fp_to_N2fix)
     ax2.set_ylabel('$f_{N2}$')
     xlim(xmax=Xlimmax)
+
 
     return 
     ##########################################################################################################################################
