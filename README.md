@@ -16,3 +16,6 @@ Run Fig5.py
 
 5. Plotting FIG S1: 
 Run FigS1.py. To change oxygen concentration, change a value of O2satratio. Resolution can be changed in the same way as FIG 4.
+
+6. Plotting FIG S2:
+Run FigS2.py. To change resolution, alter values of Ninnstep and O2satratiostep.
