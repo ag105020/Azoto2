@@ -1,5 +1,14 @@
-# Azoto2
+# Code Policy
+Please state “Cell Flux Model” and “Keisuke Inomura” in the acknowledgement when your
+publication includes the results based on the original/revised code. Or you may consider
+including Keisuke Inomura as a co-author depending on the contribution. In either case, the
+publication must cite the following paper:
+Inomura K, Bragg J, Riemann L Follows MJ. (2018). A quantitative model of nitrogen fixation in the presence of ammonium.
+PLOS ONE: e0208282
+Keisuke Inomura (University of Washington)
+ki24@uw.edu
 
+# Azoto2
 For plotting, download all the files and put them in the same folder. The codes are in python 3 and they require Latex and pylab. 
 
 1. Plotting Fig 1: 
