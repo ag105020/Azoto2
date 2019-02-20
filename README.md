@@ -5,6 +5,7 @@ including Keisuke Inomura as a co-author depending on the contribution. In eithe
 publication must cite the following paper:
 Inomura K, Bragg J, Riemann L Follows MJ. (2018). A quantitative model of nitrogen fixation in the presence of ammonium.
 PLOS ONE: e0208282
+(Paper downloaded from https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0208282&type=printable)
 Keisuke Inomura (University of Washington)
 ki24@uw.edu
 
